@@ -28,6 +28,7 @@ declare module 'react-tooltip-lite' {
     zIndex?: number;
     onToggle?: (showTip: boolean) => void;
     arrowContent?: React.ReactNode;
+    children?: React.ReactNode;
   }
 
   export default class Tooltip extends React.Component<TooltipProps> {
